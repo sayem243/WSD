@@ -1,0 +1,16 @@
+{
+  "chromeWebSecurity": false,
+  "reporter": "mocha-junit-reporter",
+  "reporterOptions": {
+    "mochaFile": "cypress/reports/junitXMLresults-[hash].xml",
+    "toConsole": true
+  },
+  "baseUrl": "http://localhost:4200",
+  "integrationFolder": "cypress/development/unicorn",
+  "retries": {
+    "runMode": 1,
+    "openMode": 2
+  },
+  "viewportWidth": 1200,
+  "viewportHeight": 1200
+}
