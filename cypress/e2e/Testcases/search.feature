@@ -1,9 +1,9 @@
 Feature: Search
 
-# Scenario: Verify Search functionality
-#  Given Navigate to the url
-#  And  Enter the products in search 
-#  Then Verify that the results page dispalyed with relevant products
+Scenario: Verify Search functionality
+ Given Navigate to the url
+ And  Enter the products in search 
+ Then Verify that the results page dispalyed with relevant products
 
 
 Scenario: Cart functionality operates correctly
